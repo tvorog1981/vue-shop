@@ -1,15 +1,21 @@
 <template>
     <div class="v-main-wrapper">
-
+       <v-catalog />
     </div>
 </template>
 
 
 <script>
 
+import vCatalog from '@/components/v-catalog'
 
 export default {
-  
+  components: { vCatalog },
+    
+   name:'v-main-wrapper',
+   component:{
+vCatalog
+   }
 }
 </script>
 <style>
