@@ -8,13 +8,14 @@
 <script>
 
 import vCatalog from '@/components/v-catalog'
+import vCard from '@/components/v-card'
 
 export default {
   components: { vCatalog },
     
    name:'v-main-wrapper',
    component:{
-vCatalog
+    vCatalog,vCard
    }
 }
 </script>
