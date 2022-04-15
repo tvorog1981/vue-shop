@@ -1,6 +1,6 @@
 <template>
     <div class="v-catalog">
-        wre
+        
         <div v-for= "n in 10 " :key="n">
             <v-catalog-item/>
         </div>

@@ -16,6 +16,9 @@ export default {
 </script>
 <style>
 .v-catalog-item{
-
+ border : 1px solid teal;
+ border-radius: 5px;
+ padding : 20px 20px;
+ margin-bottom: 10px;
 }
 </style>

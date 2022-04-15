@@ -19,12 +19,14 @@ export default {
    }
 }
 </script>
-<style>
+<style lang="sass">
 .v-main-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
     max-width:  900px;
     margin: 0 auto;
+    flex-direction: column;
+    background-color: $bg;
 }
 </style>
